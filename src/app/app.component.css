@@ -1,0 +1,11 @@
+      .box {
+        display: flex;
+        height: 300px;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+
+      .box>* {
+        flex: 1 1 80px;
+        border: solid black;
+      }
